@@ -1,3 +1,5 @@
+/*-/grid-column (1/2) -- for menu/-*/
+
 body{
 	font-family: arial;
 	font-size: 14px;
@@ -51,13 +53,14 @@ body{
 	float: left;
 }
 
+
 #header_center{
 	width: auto;
 	overflow: auto;
 	margin: 10px 0;
 }
 #menu_wrapper{
-	width: 750px;		/*-menu wrapper(bar) width auto for the whole line*/
+	width: auto;		/*-menu wrapper(bar) width auto for the whole line*/
 	overflow: auto;
 	background: #59b8cc;
 	border-radius: 5px;
@@ -174,6 +177,22 @@ body{
 .cb_news a:hover{
 	background: #4ea6b7;
 }
+
+
+.Sign_up{
+	overflow: auto;
+	width: 50%;
+	float: left;
+	grid-column: 1;
+}
+
+.Log_in{
+	overflow: auto;
+	width: 50%;
+	float: right;
+	grid-column: 2;
+}
+
 /*---/footer/---*/
 #footer{
 	width: auto;
@@ -183,4 +202,101 @@ body{
 	text-align: center;
 	margin: 10px 10px 0 10px;
 	border-radius: 5px;
+}
+
+/*---/Sign Up/Log In/---*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #cc3c51;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #67bdcc;
+    border-radius: 5px;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn, .loginbtn {
+    float: left;
+    width: 20%;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 63px 0 63px;
+ 
+}
+
+/* Add padding to container elements */
+.container {
+	background: linear-gradient(
+		to right);
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+form{
+	width: 95%;
+	height: 95%;
+	margin: 0 0 0 11px;
+}
+
+h2{
+	margin: 10px 0 10px 11px;
+}
+
+#whole{
+	display: inline-block;
+}
+
+.slideshow_e{
+	align-items: center;
+	width: auto;
+	margin-right: 50px;
 }
