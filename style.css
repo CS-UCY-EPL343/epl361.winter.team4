@@ -228,11 +228,60 @@ button {
     width: 100%;
 }
 
+/*---/Contact_Us/---*/
+.Contact_Us{
+	overflow:_auto;
+	width: 50%;
+	float: right;
+	grid-column: 1;
+}
+
+.contactus_label{
+	overflow: auto;
+	width: 50%;
+	float: right;
+	grid-column: 2;
+}
+
+/*---/About Us/---*/
+.aboutus_label{
+	overflow: auto;
+	width: auto;
+	float: center;
+}
+/*---/ Size of input box/---*/
+#textboxid
+{
+    height:200px;
+    font-size:14pt;
+}
+/*---About Us label---*/
+.html_content{
+font-family:Arial;
+font-size:1em;
+line-height: normal;
+color:#000000;
+font-style:normal;
+font-weight:normal;
+text-align:left;
+margin:0;
+}
 /* Extra styles for the cancel button */
 .cancelbtn {
     padding: 14px 20px;
     background-color: #67bdcc;
     border-radius: 5px;
+	grid-column: 2;
+}
+
+/* Extra styles for the sending button */
+.sendbtn {
+    float: left;
+    width: 20%;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 63px 0 360px;
 }
 
 /* Float cancel and signup buttons and add an equal width */
@@ -251,6 +300,20 @@ button {
 	background: linear-gradient(
 		to right);
     padding: 16px;
+}
+
+.container1 {
+	background: linear-gradient(
+		to right);
+    padding: 16px;
+	margin: 10px 0 0 0;
+}
+
+.container2 {
+	background: linear-gradient(
+		to center);
+    padding: 16px;
+	margin: 10px 0 0 0;
 }
 
 /* Clear floats */
