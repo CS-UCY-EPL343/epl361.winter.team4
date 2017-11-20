@@ -184,6 +184,98 @@ body{
 	background: #4ea6b7;
 }
 
+/*-Content Gallery-*/
+.cc_gallery{
+	width: 300px;
+	overflow: auto;
+	float: left;
+	margin: 10px;
+}
+
+.cc_gallery img{
+	border-radius: 5px;
+}
+
+.cc_gallery a{
+	background: #67bdcc;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	width: 100px;
+	text-align: center;
+	border-radius: 2px;
+	padding: 5px 0;
+}
+
+.cc_gallery a:hover{
+	background: #4ea6b7;
+}
+
+
+/*-Content Stationery-*/
+.cc_stationery{
+	width: 300px;
+	overflow: auto;
+	float: left;
+	margin: 10px;
+}
+
+.cc_stationery img{
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+.cc_stationery a{
+	background: #67bdcc;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	width: 120px;
+	text-align: center;
+	border-radius: 2px;
+	padding: 5px 0;
+	margin: 0 70px;
+}
+
+.cc_stationery a:hover{
+	background: #4ea6b7;
+}
+
+h5{
+	margin: 0 70px;
+}
+
+
+
+/*-Content Offers-*/
+.cc_offers{
+	width: 300px;
+	overflow: auto;
+	float: left;
+	margin: 10px;
+}
+
+.cc_offers img{
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+.cc_offers a{
+	background: #67bdcc;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	width: 120px;
+	text-align: center;
+	border-radius: 2px;
+	padding: 5px 0;
+	margin: 0 70px;
+}
+
+.cc_offers a:hover{
+	background: #4ea6b7;
+}
+
 
 .Sign_up{
 	overflow: auto;
