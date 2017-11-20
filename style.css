@@ -1,11 +1,15 @@
 /*-/grid-column (1/2) -- for menu/-*/
 
-/*--/Created by Chryso Avraamidou/--*/
+/*--/Created by Everyone/--*/
+
 
 body{
 	font-family: arial;
 	font-size: 14px;
-	background: #f8f8fa;
+	background-image: url("image.jpg");
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
 
 #wrapper{
@@ -229,6 +233,11 @@ button {
 }
 
 /*---/Contact_Us/---*/
+
+input.placeholder {
+    text-align: center;
+}
+
 .Contact_Us{
 	overflow:_auto;
 	width: 50%;
@@ -364,4 +373,33 @@ h2{
 	align-items: center;
 	width: auto;
 	margin-right: 50px;
+}
+
+/*Offers*/
+
+div.gallery {
+  margin: 1rem;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+	box-sizing:border-box;
+    width: calc(50% - 3rem);
+  }
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 0px;
+    text-align: center;
 }
