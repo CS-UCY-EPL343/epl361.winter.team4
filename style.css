@@ -368,7 +368,7 @@ text-align:left;
 margin:0;
 }
 /* Extra styles for the cancel button */
-.cancelbtn {
+.cancelbtn, .addtobasketbtn {
     padding: 14px 20px;
     background-color: #67bdcc;
     border-radius: 5px;
