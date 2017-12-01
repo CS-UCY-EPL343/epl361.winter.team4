@@ -1,0 +1,497 @@
+/*-/grid-column (1/2) -- for menu/-*/
+
+/*--/Created by Everyone/--*/
+
+
+body{
+	font-family: arial;
+	font-size: 14px;
+  background: url(image5.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+#wrapper{
+	width: 960px;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+/*---/header/---*/
+#header{
+	width: auto;
+	overflow: auto;
+}
+
+#header_top{
+	width: auto;
+	overflow: auto;
+	margin: 10px 0;
+}
+
+#logo{
+	width: 200px;
+	overflow: auto;
+	float: right;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+#logo h1{
+	margin: 0;
+	padding: 0;
+	font-size: 45px;
+	font-style: italic;
+	font-weight: 100;
+}
+
+
+
+#cari{
+	width: 480px;
+	overflow:auto;
+	float: left;
+	margin: 30px 10px 10px 10px;
+}
+
+#cari form{
+	float: left;
+}
+
+
+#header_center{
+	width: auto;
+	overflow: auto;
+	margin: 10px 0;
+}
+#menu_wrapper{
+	width: auto;		/*-menu wrapper(bar) width auto for the whole line*/
+	overflow: auto;
+	background: #59b8cc;
+	border-radius: 5px;
+	margin: 0 10px;
+}
+
+#menu{
+	margin: 0;
+	padding: 0;
+
+}
+
+#menu li{
+	list-style: none;
+	float: left;
+}
+
+#menu li a{
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+
+#menu li a:hover{
+	background: #1f1f21;
+
+}
+
+#header_bottom{
+	width: auto;
+	overflow: auto;
+	margin: 10px 0;
+}
+
+#slider{
+	width: auto;
+	overflow: auto;
+	margin: 0 8px;
+	border-radius: 5px;
+	border:solid 1px #ededed;
+}
+
+
+
+/*---/content/---*/
+#content{
+	width: auto;
+	overflow: auto;
+}
+
+#content_top{
+	margin: 10px;
+	text-align: justify;
+	border-bottom: solid 1px #ededed;
+
+}
+
+#content_center{
+	width: auto;
+	overflow: auto;
+	border-bottom: solid 1px #ededed;
+}
+
+.cc_news{
+	width: 300px;
+	overflow: auto;
+	float: left;
+	margin: 10px;
+}
+
+.cc_news img{
+	border-radius: 5px;
+}
+
+.cc_news a{
+	background: #67bdcc;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	width: 100px;
+	text-align: center;
+	border-radius: 2px;
+	padding: 5px 0;
+}
+
+.cc_news a:hover{
+	background: #4ea6b7;
+}
+
+#content_bottom{
+	width: auto;
+	overflow: auto;
+}
+
+.cb_news{
+	width: 460px;
+	overflow: auto;
+	margin: 10px;
+	float: left;
+}
+
+.cb_news a{
+	background: #67bdcc;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	width: 100px;
+	text-align: center;
+	border-radius: 2px;
+	padding: 5px 0;
+}
+
+.cb_news a:hover{
+	background: #4ea6b7;
+}
+
+/*-Content Gallery-*/
+.cc_gallery{
+	width: 300px;
+	overflow: auto;
+	float: left;
+	margin: 10px;
+}
+
+.cc_gallery img{
+	border-radius: 5px;
+}
+
+.cc_gallery a{
+	background: #67bdcc;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	width: 100px;
+	text-align: center;
+	border-radius: 2px;
+	padding: 5px 0;
+}
+
+.cc_gallery a:hover{
+	background: #4ea6b7;
+}
+
+
+/*-Content Stationery-*/
+.cc_stationery{
+	width: 300px;
+	overflow: auto;
+	float: left;
+	margin: 10px;
+}
+
+.cc_stationery img{
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+.cc_stationery a{
+	background: #67bdcc;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	width: 120px;
+	text-align: center;
+	border-radius: 2px;
+	padding: 5px 0;
+	margin: 0 70px;
+}
+
+.cc_stationery a:hover{
+	background: #4ea6b7;
+}
+
+h5{
+	margin: 0 70px;
+}
+
+
+
+/*-Content Offers-*/
+.cc_offers{
+	width: 300px;
+	overflow: auto;
+	float: left;
+	margin: 10px;
+}
+
+.cc_offers img{
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+.cc_offers a{
+	background: #67bdcc;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	width: 120px;
+	text-align: center;
+	border-radius: 2px;
+	padding: 5px 0;
+	margin: 0 70px;
+}
+
+.cc_offers a:hover{
+	background: #4ea6b7;
+}
+
+
+.Sign_up{
+	overflow: auto;
+	width: 50%;
+	float: left;
+	grid-column: 1;
+}
+
+.Log_in{
+	overflow: auto;
+	width: 50%;
+	float: right;
+	grid-column: 2;
+}
+
+/*---/footer/---*/
+#footer{
+	width: auto;
+	overflow: auto;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	margin: 10px 10px 0 10px;
+	border-radius: 5px;
+}
+
+/*---/Sign Up/Log In/---*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #cc3c51;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/*---/Contact_Us/---*/
+
+input.placeholder {
+    text-align: center;
+}
+
+.Contact_Us{
+	overflow:_auto;
+	width: 50%;
+	float: right;
+	grid-column: 1;
+}
+
+.contactus_label{
+	overflow: auto;
+	width: 50%;
+	float: right;
+	grid-column: 2;
+}
+
+/*---/About Us/---*/
+.aboutus_label{
+	overflow: auto;
+	width: auto;
+	float: center;
+}
+/*---/ Size of input box/---*/
+#textboxid
+{
+    height:200px;
+    font-size:14pt;
+}
+/*---About Us label---*/
+.html_content{
+font-family:Arial;
+font-size:1em;
+line-height: normal;
+color:#000000;
+font-style:normal;
+font-weight:normal;
+text-align:left;
+margin:0;
+}
+/* Extra styles for the cancel button */
+.cancelbtn, .addtobasketbtn {
+    padding: 14px 20px;
+    background-color: #67bdcc;
+    border-radius: 5px;
+	grid-column: 2;
+}
+
+/* Extra styles for the sending button */
+.sendbtn {
+    float: left;
+    width: 20%;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 63px 0 360px;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn, .loginbtn {
+    float: left;
+    width: 20%;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 63px 0 63px;
+ 
+}
+
+/* Add padding to container elements */
+.container {
+	background: linear-gradient(
+		to right);
+    padding: 16px;
+}
+
+.container1 {
+	background: linear-gradient(
+		to right);
+    padding: 16px;
+	margin: 10px 0 0 0;
+}
+
+.container2 {
+	background: linear-gradient(
+		to center);
+    padding: 16px;
+	margin: 10px 0 0 0;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+form{
+	width: 95%;
+	height: 95%;
+	margin: 0 0 0 11px;
+}
+
+h2{
+	margin: 10px 0 10px 11px;
+}
+
+#whole{
+	display: inline-block;
+}
+
+.slideshow_e{
+	align-items: center;
+	width: auto;
+	margin-right: 50px;
+}
+
+/*Offers*/
+
+div.gallery {
+  margin: 1rem;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+	box-sizing:border-box;
+    width: calc(50% - 3rem);
+  }
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 0px;
+    text-align: center;
+}
